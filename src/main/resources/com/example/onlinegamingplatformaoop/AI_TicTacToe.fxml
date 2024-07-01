@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="paneBG" stylesheets="@CSS_File/Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinegamingplatformaoop.AI_TicTacToe_Controller">
+    <children>
+        <FlowPane layoutX="188.0" layoutY="115.0" prefHeight="282.0" prefWidth="226.0">
+            <children>
+                <Button fx:id="button1" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button3" layoutX="85.0" layoutY="10.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Button>
+                <Button fx:id="button4" layoutX="160.0" layoutY="10.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button5" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button6" layoutX="85.0" layoutY="85.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button7" layoutX="160.0" layoutY="85.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button8" layoutX="10.0" layoutY="160.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+                <Button fx:id="button9" layoutX="85.0" layoutY="160.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="75.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font></Button>
+            </children>
+        </FlowPane>
+        <Text fx:id="winnerText" fill="WHITE" layoutX="182.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic-Tac-Toe" textAlignment="CENTER" wrappingWidth="237.9443359375">
+            <font>
+                <Font name="Bell MT Italic" size="32.0" />
+            </font>
+        </Text>
+        <Button layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#restartGame" stylesheets="@CSS_File/Style.css" text="Restart" />
+      <Button fx:id="exitBtn" layoutX="558.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitGame" styleClass="crossBtn" stylesheets="@CSS_File/Style.css" text="X" textFill="#faf1f1">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

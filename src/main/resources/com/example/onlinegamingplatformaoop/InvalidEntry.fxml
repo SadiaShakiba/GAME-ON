@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="79.0" prefWidth="510.0" style="-fx-background-color: Transparent;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinegamingplatformaoop.InvalidEntry">
+    <children>
+        <Pane prefHeight="79.0" prefWidth="586.0" style="-fx-background-color: #db5353;">
+            <children>
+                <Label layoutX="198.0" layoutY="11.0" prefHeight="57.0" prefWidth="173.0" text="Invalid Entry" textFill="WHITE">
+                    <font>
+                        <Font name="Arial" size="22.0" />
+                    </font>
+                </Label>
+                <Button fx:id="exitBtn" layoutX="409.0" layoutY="1.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="68.0" prefWidth="54.0" style="-fx-background-color: #db5353;" text="X" textFill="#7b1e1e">
+                    <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                    </font>
+                </Button>
+            <ImageView fitHeight="78.0" fitWidth="141.0" layoutX="52.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/sadFace.png" />
+               </image>
+            </ImageView>
+            </children>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Pane>
+    </children>
+</AnchorPane>
