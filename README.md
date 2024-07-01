@@ -14,7 +14,6 @@ Our goal is to create a gaming software which will contain many features which w
 from other existing gaming software’s and attract gamers to use our software.
 
 **Feature's:-**
-Main features of our gaming software are-
 * Single player games
 * Multiplayer games
 * Games played with bot
