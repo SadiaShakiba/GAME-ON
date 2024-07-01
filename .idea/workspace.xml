@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff7e8f10-0d44-4548-a24e-450052142108" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2CF8qWo4vpQZYxruh1RIlHEvPhS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/USER/IdeaProjects/OnlineGamingPlatformAoop/src/main/java/com/example/onlinegamingplatformaoop",
+    "last_opened_file_path": "G:/Assignment-on-Neworking-Starter-Codes",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.onlinegamingplatformaoop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\resources\com\example\onlinegamingplatformaoop\Images" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\resources\com\example\onlinegamingplatformaoop" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\java\com\example\onlinegamingplatformaoop" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\java\Images" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\resources\FxmlFile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\java\Client" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\resources\com\example\onlinegamingplatformaoop" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\resources\com\example\onlinegamingplatformaoop\CSS_File" />
+      <recent name="C:\Users\USER\IdeaProjects\OnlineGamingPlatformAoop\src\main\resources\com\example\onlinegamingplatformaoop\Images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.onlinegamingplatformaoop" />
+      <recent name="Client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.example.onlinegamingplatformaoop.Main">
+    <configuration name="Main_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Main_Server" />
+      <module name="OnlineGamingPlatformAoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server.ServerHandler" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.ServerHandler" />
+      <module name="OnlineGamingPlatformAoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.onlinegamingplatformaoop.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.onlinegamingplatformaoop.Client" />
+      <module name="OnlineGamingPlatformAoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.onlinegamingplatformaoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.onlinegamingplatformaoop.Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.onlinegamingplatformaoop.Main" />
+      <module name="OnlineGamingPlatformAoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.onlinegamingplatformaoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.onlinegamingplatformaoop.Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.onlinegamingplatformaoop.Main" />
+      <module name="OnlineGamingPlatformAoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.onlinegamingplatformaoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.onlinegamingplatformaoop.Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.onlinegamingplatformaoop.Main" />
+      <module name="OnlineGamingPlatformAoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.onlinegamingplatformaoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main_Server" />
+      <item itemvalue="Application.Server.ServerHandler" />
+      <item itemvalue="Application.com.example.onlinegamingplatformaoop.Client" />
+      <item itemvalue="Application.com.example.onlinegamingplatformaoop.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.example.onlinegamingplatformaoop.Main" />
+        <item itemvalue="Application.Server.ServerHandler" />
+        <item itemvalue="Application.com.example.onlinegamingplatformaoop.Main" />
+        <item itemvalue="Application.com.example.onlinegamingplatformaoop.Client" />
+        <item itemvalue="Application.com.example.onlinegamingplatformaoop.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff7e8f10-0d44-4548-a24e-450052142108" name="Changes" comment="" />
+      <created>1658387166231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658387166231</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
