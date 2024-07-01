@@ -1,0 +1,57 @@
+.TTT{
+    -fx-background-image:url("../Images/TTTBackground.png");
+    -fx-background-size:cover;
+}
+.flappy{
+    -fx-background-image:url("../Images/flappybird.png");
+    -fx-background-size:cover;
+}
+.MemoryGame{
+    -fx-background-image:url("../Images/Memorygame.png");
+    -fx-background-size:cover;
+}
+.BB{
+    -fx-background-image:url("../Images/BRICKBREAKER.png");
+    -fx-background-size:cover;
+}
+.paneBG{
+     -fx-background-image:url("../Images/INTRO4.png");
+     -fx-background-size:cover;
+}
+.navBtn{
+    -fx-background-color:#283B63;
+    /*-fx-background-color:Transparent; */
+}
+.focused{
+    -fx-background-color:#f15b72;
+}
+.gameBtn{
+    -fx-background-color: #06132e;
+}
+.navBtn:hover{
+    -fx-background-color:#f15b72;
+}
+.logoutBtn{
+    -fx-background-color:#283B63;
+    -fx-text-fill: white;
+    -fx-background-radius: 15px;
+}
+.logoutBtn:hover{
+     -fx-background-color:#f15b72;
+     -fx-text-fill: #000000;
+}
+.gameBtn:hover{
+    -fx-background-color:#f15b72;
+}
+.textField{
+     -fx-background-radius: 15px;
+     -fx-border-radius:15px;
+     -fx-border-width: 2px;
+
+}
+.crossBtn{
+    -fx-background-color:Transparent;
+}
+.crossBtn:hover{
+    -fx-background-color:red;
+}
