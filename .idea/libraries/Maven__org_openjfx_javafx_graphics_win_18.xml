@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.openjfx:javafx-graphics:win:18">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18-win.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files (3)/mysql-connector-java-8.0.30.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18/javafx-graphics-18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
