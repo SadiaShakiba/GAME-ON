@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="504.0" prefWidth="912.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinegamingplatformaoop.Accounts">
+    <children>
+        <Label fx:id="userLabel1" layoutX="726.0" layoutY="18.0" prefHeight="60.0" prefWidth="55.0" textFill="#488907">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font></Label>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/user_account2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="userLabel" layoutX="820.0" layoutY="15.0" prefHeight="60.0" prefWidth="92.0" textFill="#488907">
+         <font>
+            <Font name="Agency FB Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="38.0" fitWidth="48.0" layoutX="678.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/ticketP2.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="32.0" layoutY="135.0" prefHeight="335.0" prefWidth="270.0" style="-fx-border-color: #00ffe9; -fx-border-radius: 30; -fx-border-width: 3px;">
+         <children>
+            <TextField fx:id="name" editable="false" layoutX="92.0" layoutY="27.0" prefHeight="32.0" prefWidth="156.0" styleClass="textField" stylesheets="@CSS_File/Style.css" />
+            <Label layoutX="10.0" layoutY="31.0" prefHeight="24.0" prefWidth="55.0" text="Name">
+               <font>
+                  <Font name="Berlin Sans FB" size="17.0" />
+               </font></Label>
+            <Label layoutX="15.0" layoutY="76.0" prefHeight="29.0" prefWidth="81.0" text="Password">
+               <font>
+                  <Font name="Berlin Sans FB" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutY="128.0" prefHeight="24.0" prefWidth="55.0">
+               <font>
+                  <Font name="Agency FB" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="password" editable="false" layoutX="92.0" layoutY="74.0" prefHeight="32.0" prefWidth="156.0" styleClass="textField" stylesheets="@CSS_File/Style.css" />
+            <Label layoutX="10.0" layoutY="175.0" prefHeight="29.0" prefWidth="55.0" text="Coins">
+               <font>
+                  <Font name="Berlin Sans FB" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="balance" editable="false" layoutX="92.0" layoutY="173.0" prefHeight="32.0" prefWidth="156.0" styleClass="textField" stylesheets="@CSS_File/Style.css" />
+            <Button layoutX="175.0" layoutY="124.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="81.0" styleClass="logoutBtn" stylesheets="@CSS_File/Style.css" text="Edit">
+               <font>
+                  <Font name="Berlin Sans FB" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="exitBtn" layoutX="175.0" layoutY="229.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="38.0" prefWidth="81.0" styleClass="logoutBtn" stylesheets="@CSS_File/Style.css" text="Log out">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="333.0" layoutY="183.0" prefHeight="287.0" prefWidth="566.0">
+         <children>
+            <TableView fx:id="table" layoutX="-4.0" layoutY="-8.0" prefHeight="294.0" prefWidth="573.0" stylesheets="@CSS_File/tableDesign.css">
+              <columns>
+                <TableColumn fx:id="game_name" prefWidth="94.39996337890625" text="Game Name" />
+                <TableColumn fx:id="played_game" prefWidth="72.79998779296875" text="Played" />
+                  <TableColumn fx:id="winnings" prefWidth="56.79998779296875" text="won" />
+                  <TableColumn fx:id="game_lost" prefWidth="92.800048828125" text="lost" />
+                  <TableColumn fx:id="ratio" minWidth="0.0" prefWidth="98.39996337890625" text="Win Ratio (%)" />
+                  <TableColumn fx:id="game_score" prefWidth="55.199951171875" text="Score" />
+                  <TableColumn fx:id="game_highScore" prefWidth="84.7999267578125" text="High Score" />
+              </columns>
+            </TableView>
+         </children></Pane>
+      <Label layoutX="536.0" layoutY="124.0" text="Dashboard">
+         <font>
+            <Font name="Agency FB" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="82.0" text="Profile">
+         <font>
+            <Font name="Agency FB" size="33.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

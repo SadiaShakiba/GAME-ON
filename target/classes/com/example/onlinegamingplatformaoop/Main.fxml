@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="530.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinegamingplatformaoop.HelloController">
+    <children>
+        <VBox prefHeight="476.0" prefWidth="214.0" spacing="30.0" style="-fx-background-color: #283B63;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Pane prefHeight="130.0" prefWidth="204.0" style="-fx-background-color: #06132e;">
+               <children>
+                  <ImageView fitHeight="127.0" fitWidth="128.0" layoutX="62.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/GameOn_Logo.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+                </Pane>
+                <Button fx:id="btn2" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="49.0" prefWidth="214.0" styleClass="navBtn" stylesheets="@CSS_File/Style.css" text="Single Player" textFill="WHITE">
+                    <padding>
+                        <Insets left="50.0" />
+                    </padding>
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button fx:id="btn3" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="49.0" prefWidth="214.0" styleClass="navBtn" stylesheets="@CSS_File/Style.css" text="Multiplayer" textFill="#fffefe">
+                    <padding>
+                        <Insets left="50.0" />
+                    </padding>
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button fx:id="btn4" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="49.0" prefWidth="214.0" styleClass="navBtn" stylesheets="@CSS_File/Style.css" text="Free Games" textFill="#fffafa">
+                    <padding>
+                        <Insets left="50.0" />
+                    </padding>
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+                <Button fx:id="btn5" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="49.0" prefWidth="214.0" styleClass="navBtn" stylesheets="@CSS_File/Style.css" text="Account" textFill="WHITE">
+                    <padding>
+                        <Insets left="50.0" />
+                    </padding>
+               <font>
+                  <Font name="Arial Narrow Bold" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+            </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </VBox>
+      <Pane fx:id="bodyPane" layoutX="214.0" layoutY="-2.0" prefHeight="540.0" prefWidth="742.0">
+         <children>
+            <ImageView fitHeight="540.0" fitWidth="993.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/INTRO_BG.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="307.0" layoutX="392.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/slider3.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="129.0" fitWidth="307.0" layoutX="62.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/slider1.jpg" />
+               </image></ImageView>
+         </children></Pane>
+    </children>
+</AnchorPane>
